@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Fjalla+One&family=Square+Peg&display=swap" rel="stylesheet"> 
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-text">
+            <h1>Subscribe Us</h1>
+        </div>
+        <div class="form-body">
+            
+            <form action="https://postmail.invotes.com/send" method="post" id="email_form">
+                
+                <h3># Fill Your Details Here:</h3>
+                <input class="fillings" type="text" name="subject" placeholder="Subject" />
+                <textarea class="fillings"  name="text" placeholder="Type Your Comment Here..."></textarea>
+                <input class="fillings" type="text" name="reply_to"placeholder="Your Email..." />
+                <input type="hidden" name="access_token" value="hl9x26qzbv48c5p0ysaly0k5" /> 
+                <!-- hl9x26qzbv48c5p0ysaly0k5 -->
+                
+                <input type="hidden" name="success_url" value="https://www.google.com" />
+                <input type="hidden" name="error_url" value="https://www.google.com" />
+
+                
+                <input class="btn" id="submit_form" type="submit" value="Send" />
+            
+            </form>
+            
+
+            
+        </div>
+
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
